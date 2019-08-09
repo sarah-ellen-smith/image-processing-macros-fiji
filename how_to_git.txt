@@ -1,0 +1,42 @@
+How to Git
+----------------------------
+Open Powershell
+cd H:\sarah-ellen-smith_Fiji-Macro-library
+git add *.ijm
+git commit
+
+-----------------------------
+
+Press Windows+X to open the Power Users menu, and then click “Windows Powershell”
+
+Useful list of Powershell commands: https://www.microsoftpressstore.com/articles/article.aspx?p=2449029&seqNum=7
+
+Update Git:
+git clone git://git.kernel.org/pub/scm/git/git.git
+
+Show Git settings:
+$ git config --list --show-origin
+
+
+Move to desired folder:
+cd H:\sarah-ellen-smith_Fiji-Macro-library
+
+If it's the first time, intitialize the git:
+
+git init
+
+Now add the files you want to track to the git, for example add all the ijm files.
+*** You have to do git add each time you commit!
+ git add *.ijm
+
+Now all you have to do to commit is do
+git commit
+
+while your cd is the git folder.
+
+To check on everything , like which files are in the git
+$ git status
+
+
+
+
